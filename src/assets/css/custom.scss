@@ -1,0 +1,29 @@
+$main-green: #527A41;
+$main-brown: #584E4A;
+
+.background-landing {
+  background: url("../../assets/images/landing-page/background.png") no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  h1 {
+    font-size: 80px;
+    color: $main-green;
+  }
+  h2 {
+    font-size: 40px;
+    color: $main-brown;
+  }
+}
+
+.options-landing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .moments, .events {
+    padding: 50px 100px;
+  }
+  h3 {
+    color: #7B5F69;
+    font-size: 60px;
+  }
+}
